@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets (Crucial for FastAPI config)
+.env
+.env.*
+src/.env
+! .env.example
+
+# Local databases (SQLite / SQLModel local testing)
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# Testing & Coverage
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+log.txt
+
+# Type Checkers and Linters
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Packaging and Distributions (If publishing as a package)
+build/
+dist/
+*.egg-info/
+__pycache__/
